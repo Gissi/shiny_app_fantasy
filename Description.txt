@@ -1,0 +1,7 @@
+Title: Fantsy football EPL scatterplot with linear reggression
+Author: Gissur Jónasson
+AuthorUrl: http://www.rstudio.com/
+License: GPL-3
+DisplayMode: Showcase
+Tags: getting-started-firstShiny
+Type: Shiny

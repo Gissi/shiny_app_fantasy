@@ -1,0 +1,17 @@
+---
+title: "First shiny app"
+author: "Gissur Jónasson"
+date: "Thursday, April 23, 2015"
+output: html_document
+---
+
+This is an R Markdown document for simple explanation of the shiny app created for the Developing data products course in the data science specialization track on coursera. 
+
+The application  starts by scrapping data from fantasy premierleague website. It takes few seconds so give it a breather or two. After that it plots a scatterplot of the price of each player vs total points on the run date of the application. It also adds linear reggresion line to see if player are overpriced or not. Below you can then choose number of players you want to see data frame for.
+
+The input parameter for the app is number of players you want to include in the scatterplot as well as number of players data should be displayed for. The dataset is ordered from the highest scoring player to the lowest one (total number of players are 695). If fewer players are choosen it plots the scatterplot based on topp (number choosen) players.
+
+package needed for the app to run properly are shiny and ggplot2
+
+
+
